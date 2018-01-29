@@ -1,7 +1,7 @@
 contexts:
 - data:
-    output_dir: errortracking-processed
-    services_dir: errortracking-services
-    templates_dir: errortracking-templates
+    output_dir: error-tracking-processed
+    services_dir: error-tracking-services
+    templates_dir: error-tracking-templates
   name: errortracking
 current: errortracking
