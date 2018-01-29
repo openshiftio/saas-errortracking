@@ -3,5 +3,5 @@ contexts:
     output_dir: error-tracking-processed
     services_dir: error-tracking-services
     templates_dir: error-tracking-templates
-  name: errortracking
-current: errortracking
+  name: error-tracking
+current: error-tracking
