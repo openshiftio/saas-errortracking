@@ -4,3 +4,4 @@ contexts:
     services_dir: errortracking-services
     templates_dir: errortracking-templates
   name: errortracking
+current: errortracking
