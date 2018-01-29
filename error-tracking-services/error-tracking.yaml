@@ -1,0 +1,6 @@
+services:
+- hash: LATEST
+  name: error-tracking
+  path: /openshift.yaml
+  url: https://github.com/rhdt/error-tracking
+  hash_length: 7
