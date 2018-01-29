@@ -1,6 +1,6 @@
 contexts:
 - data:
-    output_dir: errortracking-processed
-    services_dir: errortracking-services
-    templates_dir: errortracking-templates
-  name: errortracking
+    output_dir: err-processed
+    services_dir: err-services
+    templates_dir: err-templates
+  name: sentry
