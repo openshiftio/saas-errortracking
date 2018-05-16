@@ -1,0 +1,10 @@
+services:
+- hash: e882b7e072d56f70f01dfe658915cd7f64c7cef0
+  name: test-keeper
+  path: /cluster/ike-prow-template.yaml
+  url: https://github.com/arquillian/ike-prow-plugins
+  hash_length: 6
+  parameters:
+    REGISTRY=push.registry.devshift.net
+    DOCKER_REPO=ike-prow-plugins
+    PLUGIN_NAME=test-keeper
