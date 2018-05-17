@@ -5,6 +5,6 @@ services:
   url: https://github.com/arquillian/ike-prow-plugins
   hash_length: 6
   parameters:
-    REGISTRY=push.registry.devshift.net
+    REGISTRY=prod.registry.devshift.net/osio-prod
     DOCKER_REPO=ike-prow-plugins
     PLUGIN_NAME=work-in-progress
