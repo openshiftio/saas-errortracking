@@ -1,5 +1,5 @@
 services:
-- hash: e882b7e072d56f70f01dfe658915cd7f64c7cef0
+- hash: 04b5c6ccef95644848d90b7d2700b734d5379692
   name: work-in-progress
   path: /cluster/ike-prow-template.yaml
   url: https://github.com/arquillian/ike-prow-plugins
