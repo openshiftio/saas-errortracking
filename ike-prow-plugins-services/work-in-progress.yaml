@@ -1,0 +1,10 @@
+services:
+- hash: none
+  name: work-in-progress
+  path: /cluster/ike-prow-template.yaml
+  url: https://github.com/arquillian/ike-prow-plugins
+  hash_length: 6
+  parameters:
+    REGISTRY=prod.registry.devshift.net/osio-prod
+    DOCKER_REPO=ike-prow-plugins
+    PLUGIN_NAME=work-in-progress

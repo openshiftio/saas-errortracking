@@ -4,4 +4,9 @@ contexts:
     services_dir: error-tracking-services
     templates_dir: error-tracking-templates
   name: error-tracking
+- data:
+    output_dir: ike-prow-plugins-processed
+    services_dir: ike-prow-plugins-services
+    templates_dir: ike-prow-plugins-templates
+  name: ike-prow-plugins
 current: error-tracking

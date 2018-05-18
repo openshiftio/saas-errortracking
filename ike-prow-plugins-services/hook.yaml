@@ -1,0 +1,9 @@
+services:
+- hash: none
+  name: hook
+  path: /cluster/hook-template.yaml
+  url: https://github.com/arquillian/ike-prow-plugins
+  hash_length: 6
+  parameters:
+    REGISTRY=prod.registry.devshift.net/osio-prod
+    DOCKER_REPO=ike-prow-plugins
