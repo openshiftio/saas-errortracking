@@ -1,5 +1,5 @@
 services:
-- hash: 2f3ad698ffcff53f881d3292a1b3da894bf1d5f7
+- hash: none
   name: hook
   path: /cluster/hook-template.yaml
   url: https://github.com/arquillian/ike-prow-plugins
